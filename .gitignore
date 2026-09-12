@@ -1,4 +1,43 @@
+# Compiled Java bytecode
 *.class
-.idea/
-.vscode/
+
+# Java build output
 out/
+build/
+target/
+bin/
+
+# IDE and editor metadata
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment and secret configuration
+.env
+.env.*
+!.env.example
+
+# Coverage and profiling reports
+coverage/
+reports/
+
+# Packaged artifacts
+*.jar
+*.war
+*.ear
