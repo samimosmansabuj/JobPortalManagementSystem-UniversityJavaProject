@@ -27,11 +27,11 @@ programming concepts using a simple in-memory data model.
 ```text
 JobPortalManagementSystem/
 ├── .gitignore
-├── Main.java
 ├── README.md
 └── src/
     ├── Application.java
     ├── Company.java
+    ├── Main.java
     ├── Job.java
     ├── JobSeeker.java
     └── User.java
